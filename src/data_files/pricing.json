@@ -1,38 +1,38 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
+  "title": "Simple, Transparent Shipping Rates",
+  "subTitle": "Navigate your shipments with ease using our straightforward, value-driven pricing plans.",
   "badge": "Best value",
   "thirdOption": "Enterprise Solutions?",
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
+    "name": "Basic Shipment",
+    "description": "Best for small to medium-sized shipments",
     "price": "49",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "USD / KG",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Standard shipping tools",
+      "Access to shipping guides & tutorials",
+      "Standard customer support"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Choose Basic Shipment",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
+    "name": "Premium Shipping Solution",
+    "description": "Best for large scale shipping needs",
+    "price": "99",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "USD / KG",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Priority shipping options",
+      "Exclusive shipping deals & discounts",
+      "Bulk shipping discounts",
+      "Premium customer support"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Choose Premium Shipping Solution",
     "purchaseLink": "#"
   }
 }
