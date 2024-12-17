@@ -43,7 +43,7 @@ const backgroundImages = [
   <div class="min-h-screen">
     <nav class="py-6">
       <div class="relative -mt-[80px]">
-        <div id="slideshowBackground" class="bg-cover bg-center bg-fixed rounded-[2.5%] transition-all duration-1000" style={`background-image: url('${backgroundImages[0]}')`}>
+        <div id="slideshowBackground" class="bg-cover bg-center bg-fixed rounded-[2.5%] transition-all duration-1000" style={`background-image: url('${backgroundImages[0].src}')`}>
           <div class="bg-white/5 rounded-[2.5%]">
             <HeroSection
               title=`Reliable Shipping, on time Everytime with   <span
@@ -151,13 +151,8 @@ const backgroundImages = [
   </div>
 </MainLayout>
 
-<script>
-  const backgrounds = [
-    'https://res.cloudinary.com/dzh8mryxw/image/upload/v1734100164/iStock-2149080794_vb6vvw.jpg',
-    'https://res.cloudinary.com/dzh8mryxw/image/upload/v1734100160/galen-crout-oRbP9PC59Bg-unsplash_r5php7.jpg',
-    'https://res.cloudinary.com/dzh8mryxw/image/upload/v1734100166/iStock-1454531939_lsbj2b.jpg',
-    'https://res.cloudinary.com/dzh8mryxw/image/upload/v1734100160/iStock-1181299667_rb0nke.jpg'
-  ];
+<script define:vars={{ backgroundImages }}>
+  const backgrounds = backgroundImages.map(img => img.src);
   
   let currentIndex = 0;
   const slideshowElement = document.getElementById('slideshowBackground');
