@@ -12,7 +12,7 @@ import { SITE } from "@data/constants";
 const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
 
 // Define the variables that will be used in this componen
-const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafted by";
+const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Developed by";
 ---
 
 <footer class="w-full bg-neutral-300 dark:bg-neutral-900">
@@ -53,6 +53,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
       }
 
       <div class="col-span-2">
+        
       </div>
     </div>
 

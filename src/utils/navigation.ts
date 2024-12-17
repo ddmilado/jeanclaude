@@ -9,8 +9,8 @@ const footerLinks = [
   {
     section: "Company",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "About Us", url: "#" },
+      { name: "Contact Us", url: "/contact" },
     ],
   },
 ];
