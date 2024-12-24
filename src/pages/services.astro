@@ -7,12 +7,12 @@ import RightSection from "@components/ui/blocks/RightSection.astro";
 import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
 
 // Import necessary images
-import blueprints from "@images/blueprints-image.avif";
-import personWorking from "@images/person-working.avif";
-import beforeAfter from "@images/before-after.avif";
-import constructionWorkers from "@images/construction-workers.avif";
-import aerialView from "@images/aerial-view.avif";
-import usingTools from "@images/using-tools.avif";
+import blueprints from "@images/blueprints-image.jpg";
+import personWorking from "@images/person-working.jpg";
+import beforeAfter from "@images/before-after.jpg";
+import constructionWorkers from "@images/construction-workers.jpg";
+import aerialView from "@images/aerial-view.jpg";
+import usingTools from "@images/using-tools.jpg";
 import progressBuilding from "@images/progress-building.avif";
 import underConstruction from "@images/under-construction.avif";
 import { SITE } from "@data/constants";
@@ -36,9 +36,9 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Import & Export",
+    title: "Visa & Travel Documentation Services",
     subTitle:
-      "Efficient handling of international trade to and from major destinations, ensuring smooth documentation, timely deliveries, and cost-effective solutions.",
+      "Navigating international travel requirements can be overwhelming. We simplify the process by assisting with visa applications, travel insurance, passport renewals, and other necessary travel documents. Our team will guide you through every step, ensuring a smooth, stress-free journey.",
     single: false,
     imgOne: blueprints,
     imgOneAlt: "Blueprints and digital tablet with construction plans.",
@@ -47,9 +47,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Air Freight Service",
+    title: "Corporate & Group Travel Services",
     subTitle:
-      "Fast and reliable air cargo solutions for time-sensitive shipments, connecting businesses to global markets.",
+      "Streamlined planning for corporate retreats, business trips, and group tours. We handle all logistics, from transportation to accommodations and activities, ensuring a smooth, professional experience for your team or group. Let us take care of the details so you can focus on what matters most.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
     btnExists: false,
@@ -58,9 +58,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: true,
-    title: "Sea Freight Service",
+    title: "Destination Weddings & Special Events",
     subTitle:
-      "Cost-efficient shipping for large, heavy, or bulk cargo with flexible container solutions and worldwide port-to-port coverage.",
+      "Make your dream event a reality with PKT Travels, Tours & Events. We specialize in destination weddings, milestone celebrations, and large-scale events. From venue selection to on-the-day coordination, we offer full-service event planning, ensuring every detail is perfect.",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: " project",
@@ -69,9 +69,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Land Freight Service",
+    title: "Luxury & Custom Travel Experiences",
     subTitle:
-      "Safe and dependable trucking services for domestic and cross-border deliveries, ensuring your cargo reaches its destination on time.",
+      "Whether you’re seeking a luxurious getaway, a once-in-a-lifetime adventure, or a unique experience, our team is here to design the perfect itinerary for you. Private tours, exclusive destinations, and tailored experiences are just the beginning of what we can offer.",
     img: usingTools,
     imgAlt:
       "Man",
@@ -80,7 +80,7 @@ const articles: Article[] = [
     isRightSection: true,
     title: "Travel & Booking Services",
     subTitle:
-      "At ARD GHADEER, we simplify travel and official processes with a comprehensive range of services. From airline and hotel bookings to customized tour packages, we ensure seamless and stress-free travel experiences. Need reliable ferry reservations? Our 2GO booking has you covered. For official matters, we assist with passport applications, visa processing, and scheduling PSA/NBI appointments. We also provide efficient DFA Apostille services to authenticate your documents for international use. Whether for business, leisure, or personal needs, ARD GHADEER is your trusted partner for smooth and hassle-free journeys.",
+      "At PKT Travels, we simplify travel and official processes with a comprehensive range of services. From airline and hotel bookings to customized tour packages, we ensure seamless and stress-free travel experiences. Need reliable ferry reservations? Our 2GO booking has you covered. For official matters, we assist with passport applications, visa processing, and scheduling PSA/NBI appointments. We also provide efficient DFA Apostille services to authenticate your documents for international use. Whether for business, leisure, or personal needs, PKT travels, tours & events  is your trusted partner for smooth and hassle-free journeys.",
     single: false,
     imgOne: progressBuilding,
     imgOneAlt: "In",
@@ -115,8 +115,8 @@ const pageTitle: string = `Services | ${SITE.title}`;
 >
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Seamless Shipping Solutions Tailored to Your Business Needs"
-    subTitle="At ARD GHADEER, we don’t just deliver packages—we deliver reliability, efficiency, and peace of mind. Our comprehensive shipping services are designed to meet the unique demands of businesses and individuals, ensuring every shipment arrives on time, every time."
+    title="Seamless Travel & Event Solutions Tailored to Your Needs"
+    subTitle="At PKT Travels, Tours & Events, we don’t just book trips or organize events—we deliver exceptional experiences, peace of mind, and flawless execution. Our comprehensive travel and event planning services are designed to meet the unique needs of individuals, families, and businesses, ensuring every journey and event is seamless, unforgettable, and stress-free."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="/contact"
@@ -160,21 +160,21 @@ const pageTitle: string = `Services | ${SITE.title}`;
   <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
     title="By the Numbers"
-    subTitle="Our commitment to excellence and reliability is evident in every shipment and service we provide. At ARD GHADEER, we strive to deliver seamless logistics and travel solutions that exceed expectations."
+    subTitle="At PKT Travels, Tours & Events, we’re committed to providing outstanding service that exceeds expectations. From custom travel itineraries to flawless event execution, we take pride in delivering unforgettable experiences."
     mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ARD GHADEER as exceptional"
+    mainStatSubTitle="96% of our clients rate their experience as exceptional"
     stats={[
       {
         stat: "99.8%",
-        description: "on-time delivery rate across all freight services",
+        description: "on-time travel and event service delivery rate",
       },
       {
-        stat: "5,000+",
-        description: "shipments successfully delivered globally",
+        stat: "2,000+",
+        description: "successful travel bookings and events coordinated globally",
       },
       {
         stat: "85%",
-        description: "client retention rate year-over-year",
+        description: "visa processing success rate",
       },
     ]}
   />

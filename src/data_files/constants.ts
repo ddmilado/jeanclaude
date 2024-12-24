@@ -1,10 +1,10 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ARD Ghadeer Co",
-  tagline: "Shipping and Logistics Services",
-  description: "ARD Ghadeer Co offers top-tier shipping and logistics services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ARD Ghadeer Co offers top-tier shipping and logistics services to meet all your project needs.",
+  title: "PKT Travels, Tours & Events",
+  tagline: "Travels, Tours & Events",
+  description: "PKT Travels, Tours & Events is a full-service travel and event management company dedicated to creating unforgettable experiences.",
+  description_short: "PKT Travels, Tours & Events is a full-service travel and event management company dedicated to creating unforgettable experiences.",
   url: "https://www.ardghadeer.com",
   author: "Emil Gulamov",
 };
@@ -33,7 +33,7 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Shipping and Logistics Services`,
-  description: "We provide top-quality shipping and logistics services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
+  title: `${SITE.title}: : Travels, Tours & Events`,
+  description: "PKT Travels, Tours & Events is a full-service travel and event management company dedicated to creating unforgettable experiences.",
   image: ogImageSrc,
 };

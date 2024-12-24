@@ -1,38 +1,40 @@
 {
-  "title": "Simple, Transparent Shipping Rates",
-  "subTitle": "Navigate your shipments with ease using our straightforward, value-driven pricing plans.",
+  "title": "Simple, Transparent Travel & Event Pricing",
+  "subTitle": "Plan your next adventure or event with ease, thanks to our clear and value-driven pricing plans. Whether you’re booking a trip or organizing a special event, we offer straightforward packages that fit your needs and budget.",
   "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
+  "thirdOption": "Business Tours?",
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Basic Shipment",
+    "name": "Basic Travel Package",
     "description": "Best for small to medium-sized shipments",
-    "price": "49",
+    "price": "999",
     "cents": ".00",
-    "billingFrequency": "USD / KG",
+    "billingFrequency": "USD / Person",
     "features": [
-      "Standard shipping tools",
-      "Access to shipping guides & tutorials",
-      "Standard customer support"
+      "Visa Processing",
+      "Ticket Booking",
+      "Standard travel itinerary and event planning",
+      "Access to essential guides and recommendations",
+      "Customer Support"
     ],
-    "purchaseBtnTitle": "Choose Basic Shipment",
+    "purchaseBtnTitle": "Choose Basic Package",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Premium Shipping Solution",
+    "name": "Premium Travel Package",
     "description": "Best for large scale shipping needs",
-    "price": "99",
+    "price": "2999",
     "cents": ".00",
-    "billingFrequency": "USD / KG",
+    "billingFrequency": "USD / Person",
     "features": [
-      "Priority shipping options",
-      "Exclusive shipping deals & discounts",
-      "Bulk shipping discounts",
-      "Premium customer support"
+      "Priority booking and scheduling services",
+      "Dedicated concierge and premium customer support",
+      "Personalized travel itineraries and event design",
+      "VIP access to premium venues and experiences"
     ],
-    "purchaseBtnTitle": "Choose Premium Shipping Solution",
+    "purchaseBtnTitle": "Choose Premium Package",
     "purchaseLink": "#"
   }
 }
