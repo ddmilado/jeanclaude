@@ -85,3 +85,10 @@ select {
     transform: translateX(0.25rem);
     transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.navbar-logo {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 65px; /* Ensure it doesn’t exceed navbar height */
+    object-fit: contain; /* Ensures proper scaling */
+  }
+  

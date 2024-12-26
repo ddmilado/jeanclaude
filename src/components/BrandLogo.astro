@@ -1,27 +1,12 @@
-<svg
-  {...Astro.props}
-  viewBox="0 0 521 226"
-  fill="none"
->
-  <circle
-    cx="260"
-    cy="113"
-    r="80"
-    fill="#3b82f6"
-  />
-  
-  <circle cx="200" cy="70" r="4" fill="white" />
-  <circle cx="230" cy="130" r="4" fill="white" />
-  <circle cx="280" cy="90" r="4" fill="white" />
-  <circle cx="320" cy="130" r="4" fill="white" />
-  <circle cx="240" cy="150" r="4" fill="white" />
-  
-  <text
-    x="185"
-    y="130"
-    fill="#ea580c"
-    style="font-size: 72px; font-weight: bold;"
-  >
-    PKT
-  </text>
-</svg>
+---
+import logoSrc from '@images/IMG-20240630-WA0066-removebg-preview.png'; // Path outside public folder
+import { Image } from 'astro:assets';
+---
+
+<Image
+  src={logoSrc}
+  alt="Navbar Logo"
+  class="navbar-logo"
+  width={80}
+  height={40}
+/>
